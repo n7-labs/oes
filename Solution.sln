@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C98E9BDF-0D54-4927-97B7-38C17A5A8179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N7.Oes.Abstractions", "src\N7.Oes.Abstractions\N7.Oes.Abstractions.csproj", "{DAFB025F-5881-493F-BB7B-8E2F3CA5C1EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N7.Oes", "src\N7.Oes\N7.Oes.csproj", "{62DE515A-B503-486B-ADBD-3B20F12BAC82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "usage", "usage", "{97DC0E50-68BB-43F6-A94C-6EA1D52222D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lotteries", "lotteries", "{B749C656-3BBE-4EBD-BC92-FCF417B458E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N7.Lotteries.Api", "usage\lotteries\N7.Lotteries.Api\N7.Lotteries.Api.csproj", "{83F91F98-83B7-4806-9312-60AA89CFB1BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N7.Lotteries.Grains.Abstractions", "usage\lotteries\N7.Lotteries.Grains.Abstractions\N7.Lotteries.Grains.Abstractions.csproj", "{75DFD450-97BE-4CB6-A10F-BCFB41688734}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N7.Lotteries.Grains", "usage\lotteries\N7.Lotteries.Grains\N7.Lotteries.Grains.csproj", "{E1166652-5EB2-4F07-952C-760BE6BE059F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAFB025F-5881-493F-BB7B-8E2F3CA5C1EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAFB025F-5881-493F-BB7B-8E2F3CA5C1EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAFB025F-5881-493F-BB7B-8E2F3CA5C1EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAFB025F-5881-493F-BB7B-8E2F3CA5C1EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62DE515A-B503-486B-ADBD-3B20F12BAC82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62DE515A-B503-486B-ADBD-3B20F12BAC82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62DE515A-B503-486B-ADBD-3B20F12BAC82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62DE515A-B503-486B-ADBD-3B20F12BAC82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F91F98-83B7-4806-9312-60AA89CFB1BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F91F98-83B7-4806-9312-60AA89CFB1BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F91F98-83B7-4806-9312-60AA89CFB1BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F91F98-83B7-4806-9312-60AA89CFB1BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75DFD450-97BE-4CB6-A10F-BCFB41688734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75DFD450-97BE-4CB6-A10F-BCFB41688734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75DFD450-97BE-4CB6-A10F-BCFB41688734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75DFD450-97BE-4CB6-A10F-BCFB41688734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1166652-5EB2-4F07-952C-760BE6BE059F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1166652-5EB2-4F07-952C-760BE6BE059F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1166652-5EB2-4F07-952C-760BE6BE059F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1166652-5EB2-4F07-952C-760BE6BE059F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DAFB025F-5881-493F-BB7B-8E2F3CA5C1EE} = {C98E9BDF-0D54-4927-97B7-38C17A5A8179}
+		{62DE515A-B503-486B-ADBD-3B20F12BAC82} = {C98E9BDF-0D54-4927-97B7-38C17A5A8179}
+		{B749C656-3BBE-4EBD-BC92-FCF417B458E3} = {97DC0E50-68BB-43F6-A94C-6EA1D52222D5}
+		{83F91F98-83B7-4806-9312-60AA89CFB1BC} = {B749C656-3BBE-4EBD-BC92-FCF417B458E3}
+		{75DFD450-97BE-4CB6-A10F-BCFB41688734} = {B749C656-3BBE-4EBD-BC92-FCF417B458E3}
+		{E1166652-5EB2-4F07-952C-760BE6BE059F} = {B749C656-3BBE-4EBD-BC92-FCF417B458E3}
+	EndGlobalSection
+EndGlobal
